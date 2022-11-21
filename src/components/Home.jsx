@@ -17,7 +17,7 @@ const Home = () => {
         <div className="circle-img">
           <img
             className="martin-img"
-            src="Martin_img"
+            src={Martin_img}
             alt="Martin Paredes"
           />
         </div>
