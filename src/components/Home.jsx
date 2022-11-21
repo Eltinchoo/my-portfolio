@@ -17,7 +17,7 @@ const Home = () => {
           <img
             className="martin-img"
             src="../src/assets/IMG-8934-removebg-preview.png"
-            alt="martin"
+            alt="Martin Paredes"
           />
         </div>
       </div>
