@@ -16,7 +16,7 @@ const Portfolio = () => {
               {" "}
               <img
                 className="img-portfolio"
-                src="../src/assets/e-commerce.png"
+                src="https://github.com/Eltinchoo/my-portfolio/blob/main/src/assets/e-commerce.png"
                 alt=""
               />{" "}
             </a>
@@ -30,7 +30,7 @@ const Portfolio = () => {
             >
               <img
                 className="img-portfolio"
-                src="../src/assets/pokedex.png"
+                src="https://github.com/Eltinchoo/my-portfolio/blob/main/src/assets/pokedex.png"
                 alt=""
               />
             </a>
@@ -45,7 +45,7 @@ const Portfolio = () => {
             >
               <img
                 className="img-portfolio"
-                src="../src/assets/weather-app.png"
+                src="https://github.com/Eltinchoo/my-portfolio/blob/main/src/assets/weather-app.png"
                 alt=""
               />
             </a>
@@ -56,7 +56,7 @@ const Portfolio = () => {
             <a href="https://joyful-scone-2f84e4.netlify.app/" target="_blank">
               <img
                 className="img-portfolio"
-                src="../src/assets/rick-and-morty.png"
+                src="https://github.com/Eltinchoo/my-portfolio/blob/main/src/assets/rick-and-morty.png"
                 alt=""
               />
             </a>
