@@ -15,7 +15,7 @@ const Home = () => {
         <div className="circle-img">
           <img
             className="martin-img"
-            src='https://github.com/Eltinchoo/my-portfolio/blob/main/src/assets/IMG-8934-removebg-preview.png'
+            src='../assets/IMG-8934-removebg-preview.png'
             alt="Martin Paredes"
           />
         </div>
