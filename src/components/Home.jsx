@@ -1,4 +1,5 @@
 import React from "react";
+import martin from '../assets/img/martin.png'
 
 const Home = () => {
 
@@ -15,7 +16,7 @@ const Home = () => {
         <div className="circle-img">
           <img
             className="martin-img"
-            src='../src/assets/IMG-8934-removebg-preview.png'
+            src={martin}
             alt="Martin Paredes"
           />
         </div>
