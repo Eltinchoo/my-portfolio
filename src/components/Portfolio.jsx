@@ -1,5 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import e_commerce from '../assets/img/e-commerce.png'
+import rick_and_morty from '../assets/img/rick-and-morty.png'
+import pokedex from '../assets/img/pokedex.png'
+import weatherapp from '../assets/img/weather-app.png'
+
 
 const Portfolio = () => {
   return (
@@ -16,7 +20,7 @@ const Portfolio = () => {
               {" "}
               <img
                 className="img-portfolio"
-                src="https://github.com/Eltinchoo/my-portfolio/blob/main/src/assets/e-commerce.png"
+                src={e_commerce}
                 alt=""
               />{" "}
             </a>
@@ -30,7 +34,7 @@ const Portfolio = () => {
             >
               <img
                 className="img-portfolio"
-                src="https://github.com/Eltinchoo/my-portfolio/blob/main/src/assets/pokedex.png"
+                src={pokedex}
                 alt=""
               />
             </a>
@@ -45,7 +49,7 @@ const Portfolio = () => {
             >
               <img
                 className="img-portfolio"
-                src="https://github.com/Eltinchoo/my-portfolio/blob/main/src/assets/weather-app.png"
+                src={weatherapp}
                 alt=""
               />
             </a>
@@ -56,7 +60,7 @@ const Portfolio = () => {
             <a href="https://joyful-scone-2f84e4.netlify.app/" target="_blank">
               <img
                 className="img-portfolio"
-                src="https://github.com/Eltinchoo/my-portfolio/blob/main/src/assets/rick-and-morty.png"
+                src={rick_and_morty}
                 alt=""
               />
             </a>

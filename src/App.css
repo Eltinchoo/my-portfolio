@@ -16,8 +16,7 @@
 }
 body {
   font-family: "Mulish", sans-serif;
-  
-  background-image: url('./assets/wallpapersden.com_cool-4k-pattern_3840x2160.jpg');
+  background-image: url('./assets/img/background.jpg');
 }
 .nav-bar {
   display: flex;
