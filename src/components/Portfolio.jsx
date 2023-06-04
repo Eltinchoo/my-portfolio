@@ -57,7 +57,7 @@ const Portfolio = () => {
 
           <div className="crud-container">
             <h3>Rick And Morty</h3>
-            <a href="https://joyful-scone-2f84e4.netlify.app/" target="_blank">
+            <a href="https://martin-paredes-rick-and-morty-wiki.netlify.app/" target="_blank">
               <img
                 className="img-portfolio"
                 src={rick_and_morty}
