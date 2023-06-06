@@ -270,6 +270,10 @@ color: rgb(240, 35, 35);
   align-items: center;
   margin-top: 55px;
 }
+/* Portfolio*/
+.app-title{
+ padding-top: 10px;
+}
 .portfolio-container{
   background-color: #183e49;
   display: flex;
@@ -297,13 +301,10 @@ color: rgb(240, 35, 35);
 }
 .img-portfolio{
   width: 700px;
-
-
+  height: 400px;
 }
 
-
 .img-portfolio:hover{
-
 opacity:0.6
 }
 

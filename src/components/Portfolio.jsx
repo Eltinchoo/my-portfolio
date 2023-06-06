@@ -12,7 +12,7 @@ const Portfolio = () => {
       <div className="portfolio-container">
         <div>
           <div className="e-commerce-container">
-            <h3>E-commerce</h3>
+            <h3 className="app-title">E-commerce</h3>
             <a
               href="https://stunning-vacherin-d5764e.netlify.app/"
               target="_blank"
@@ -21,13 +21,13 @@ const Portfolio = () => {
               <img
                 className="img-portfolio"
                 src={e_commerce}
-                alt=""
+                alt="e_commerce imagen"
               />{" "}
             </a>
           </div>
 
           <div className="pokedex-container">
-            <h3>Pokedex</h3>
+            <h3 className="app-title">Pokedex</h3>
             <a
               href="https://sparkling-dieffenbachia-719213.netlify.app/"
               target="_blank"
@@ -35,14 +35,14 @@ const Portfolio = () => {
               <img
                 className="img-portfolio"
                 src={pokedex}
-                alt=""
+                alt="pokedex imagen"
               />
             </a>
           </div>
         </div>
         <div>
           <div className="weatherapp-container">
-            <h3>Weather-app</h3>
+            <h3 className="app-title">Weather-app</h3>
             <a
               href="https://guileless-sfogliatella-73f652.netlify.app/"
               target="_blank"
@@ -50,18 +50,18 @@ const Portfolio = () => {
               <img
                 className="img-portfolio"
                 src={weatherapp}
-                alt=""
+                alt="weather app imagen"
               />
             </a>
           </div>
 
           <div className="crud-container">
-            <h3>Rick And Morty</h3>
+            <h3 className="app-title">Rick And Morty</h3>
             <a href="https://martin-paredes-rick-and-morty-wiki.netlify.app/" target="_blank">
               <img
                 className="img-portfolio"
                 src={rick_and_morty}
-                alt=""
+                alt="rick and morty imagen"
               />
             </a>
           </div>
