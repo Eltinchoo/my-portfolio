@@ -307,10 +307,10 @@ ul li:hover {
 
 
 /* Mobile */
-@media (min-width: 300px) {
+@media (min-width: 300px)  {
   /* Nav bar */
   .nav-bar {
-    justify-content: center;
+    justify-content: start;
   }
   /* Home*/
   .name {
@@ -378,18 +378,18 @@ ul li:hover {
   }
 }
 /* Tablet */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width:991px){
   /* Home*/
   .name {
-    font-size: 60px;
+    font-size: 40px;
   }
   .occupation {
-    font-size: 35px;
+    font-size: 25px;
   }
   .text-presentation {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 80px;
-    font-size: 30px;
+    font-size: 20px;
   }
   /* Portfolio */
   .portfolio-title {
@@ -419,7 +419,12 @@ ul li:hover {
   }
 }
 /* Laptop */
-@media (min-width: 992px) {
+@media (min-width: 991px) {
+  /* Nav Bar */
+  .nav-bar{
+    justify-content: start;
+  }
+  /* Portfolio */
   .portfolio-title{
     margin: 80px;
     margin-bottom:140px;
