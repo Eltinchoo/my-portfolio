@@ -305,9 +305,6 @@ ul li:hover {
   height: 400px;
 }
 
-.img-portfolio:hover {
-  opacity: 0.6;
-}
 
 /* Mobile */
 @media (min-width: 300px) {
@@ -343,6 +340,7 @@ ul li:hover {
   /* Portfolio*/
   .portfolio-title {
     font-size: 30px;
+    margin: 40px;
   }
   .portfolio-container {
     margin-top: -30px;
@@ -351,16 +349,16 @@ ul li:hover {
   }
   .e-commerce-container {
     height: 280px;
-    margin-bottom: 20px;
+   margin-bottom: 40px;
   }
   .pokedex-container {
     height: 280px;
-    margin-bottom: 20px;
+   margin-bottom: 40px;
   }
   .weatherapp-container {
     height: 280px;
-    margin-bottom: 20px;
-    margin-top: -30px;
+    margin-bottom: 40px;
+  
   }
   .rick-and-morty-container {
     height: 280px;
@@ -399,15 +397,15 @@ ul li:hover {
   }
   .portfolio-container {
     flex-direction: row;
-   justify-content: space-evenly;
-   margin-top: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
   }
   .e-commerce-container {
     margin-bottom: 50px;
   }
   .weatherapp-container {
     margin-bottom: 50px;
-    margin-top: 20px;
   }
   .pokedex-container {
     margin-bottom: 50px;
@@ -422,6 +420,29 @@ ul li:hover {
 }
 /* Laptop */
 @media (min-width: 992px) {
+  .portfolio-title{
+    margin: 80px;
+    margin-bottom:140px;
+    font-size: 80px;
+  }
+  .portfolio-container{
+    
+    margin-top: -90px;
+    gap:30px;
+    justify-content: center;
+  }
+  .e-commerce-container {
+    height: 250px;
+  }
+  .pokedex-container {
+    height: 250px;
+  }
+  .weatherapp-container {
+    height: 250px;    
+  }
+  .rick-and-morty-container {
+    height: 250px;
+  }
 }
 /* Desktop */
 @media (min-width: 1200px) {
