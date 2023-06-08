@@ -11,12 +11,12 @@
   display: flex;
   flex-direction: column;
 }
-.app-container{
-  flex: 1
+.app-container {
+  flex: 1;
 }
 body {
   font-family: "Mulish", sans-serif;
-  background-image: url('./assets/img/background.jpg');
+  background-image: url("./assets/img/background.jpg");
 }
 .nav-bar {
   display: flex;
@@ -78,7 +78,7 @@ ul li:hover {
 }
 .occupation {
   margin-top: -10px;
-  color:  #06cfda;
+  color: #06cfda;
   margin-bottom: 50px;
 }
 .text-presentation {
@@ -105,10 +105,9 @@ ul li:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 .about-me-title {
-  color:   #06cfda;
+  color: #06cfda;
   font-size: 50px;
   font-weight: bolder;
 }
@@ -132,20 +131,20 @@ ul li:hover {
   box-sizing: border-box;
   border-radius: 0px;
 }
-.academlo{
- color: gray;
+.academlo {
+  color: gray;
   margin-top: 10px;
 }
-.education-title{
+.education-title {
   color: #06cfda;
   font-size: 30px;
 }
-.experience-title{
+.experience-title {
   color: #06cfda;
   font-size: 30px;
 }
-.title-academlo{
-  font-family: 'Playfair Display', serif;
+.title-academlo {
+  font-family: "Playfair Display", serif;
   color: whitesmoke;
   font-size: 20px;
 }
@@ -184,7 +183,7 @@ ul li:hover {
   margin-top: 40px;
   margin-bottom: 10px;
   font-size: 30px;
-  color: gray
+  color: gray;
 }
 .soft-skills {
   display: flex;
@@ -199,7 +198,7 @@ ul li:hover {
   align-items: center;
   gap: 50px;
 }
-.brand{
+.brand {
   font-size: 25px;
 }
 .fa-html5 {
@@ -210,7 +209,7 @@ ul li:hover {
   color: rgb(13, 139, 235);
   font-size: 25px;
 }
-.fa-bootstrap{
+.fa-bootstrap {
   color: rgb(171, 67, 255);
   font-size: 25px;
 }
@@ -222,7 +221,7 @@ ul li:hover {
   color: rgb(25, 242, 242);
   font-size: 25px;
 }
-.fa-node-js{
+.fa-node-js {
   color: rgb(33, 202, 33);
 }
 .fa-git-alt {
@@ -233,33 +232,32 @@ ul li:hover {
   color: black;
   font-size: 25px;
 }
-.soft-skills-title{
+.soft-skills-title {
   font-size: 20px;
- 
 }
-.fa-bolt{
+.fa-bolt {
   font-size: 25px;
   color: rgb(194, 194, 22);
 }
-.fa-users{
-font-size: 25px;
-color:rgb(22, 184, 184)
-}
-.fa-circle-check{
-font-size: 25px;
-color:rgb(95, 240, 95)
-}
-.fa-heart-circle-plus{
-font-size: 25px;
-color: rgb(240, 35, 35);
-}
-.fa-comments{
+.fa-users {
   font-size: 25px;
-  color:rgb(193, 66, 231)
+  color: rgb(22, 184, 184);
 }
-.fa-lightbulb{
+.fa-circle-check {
   font-size: 25px;
-  color:yellow
+  color: rgb(95, 240, 95);
+}
+.fa-heart-circle-plus {
+  font-size: 25px;
+  color: rgb(240, 35, 35);
+}
+.fa-comments {
+  font-size: 25px;
+  color: rgb(193, 66, 231);
+}
+.fa-lightbulb {
+  font-size: 25px;
+  color: yellow;
 }
 .footer {
   background-color: #183e49d4;
@@ -271,92 +269,116 @@ color: rgb(240, 35, 35);
   margin-top: 55px;
 }
 /* Portfolio*/
-.app-title{
- padding-top: 10px;
+.app-title {
+  padding-top: 10px;
 }
-.portfolio-container{
+.portfolio-container {
   background-color: #183e49;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px;
-  gap:15px;
+  gap: 15px;
 }
-.e-commerce-container{
-  background-color:#35859b;
-  border-radius: 10px;
-}
-.pokedex-container{
+.e-commerce-container {
   background-color: #35859b;
   border-radius: 10px;
 }
-.weatherapp-container{
-  background-color:#35859b;
-  border-radius: 10px;
-}
-.rick-and-morty-container{
+.pokedex-container {
   background-color: #35859b;
   border-radius: 10px;
 }
-.portfolio-title{
+.weatherapp-container {
+  background-color: #35859b;
+  border-radius: 10px;
+}
+.rick-and-morty-container {
+  background-color: #35859b;
+  border-radius: 10px;
+}
+.portfolio-title {
   color: #06cfda;
   font-size: 50px;
   font-weight: bolder;
 }
-.img-portfolio{
+.img-portfolio {
   width: 700px;
   height: 400px;
 }
 
-.img-portfolio:hover{
-opacity:0.6
+.img-portfolio:hover {
+  opacity: 0.6;
 }
 
 /* Mobile */
-@media (min-width: 300px){
-/* Home*/
-  .name{
-    margin-top:-15px;
-    font-size: 30px;
+@media (min-width: 300px) {
+  /* Nav bar */
+  .nav-bar {
+    justify-content: center;
   }
-  .martin-container{
+  /* Home*/
+  .name {
+    margin-top: -15px;
+    font-size: 40px;
+  }
+  .occupation {
+    font-size: 23px;
+  }
+  .circle-img {
+    width: 320px;
+    height: 330px;
+  }
+  .martin-img {
+    height: 350px;
+    width: 290px;
+  }
+  .martin-container {
     flex-direction: column;
   }
-  .text-presentation{
+  .text-presentation {
     margin-top: 20px;
   }
- .download-cv-btn{
-  margin-top: -20px;
- }
- /* Portfolio*/
- .portfolio-container{
-  border-radius: 10px;
-  flex-direction: column;
-  width: 300px;
-  margin: 10px;
- }
- .img-portfolio{
-  width: 290px;
-  height: 230px;
-  border-radius: 10px;
- }
- /* Footer */
- .footer-text{
-  font-size: 10px;
- }
+  .download-cv-btn {
+    margin-top: -20px;
+  }
+  /* Portfolio*/
+  .portfolio-container {
+    border-radius: 10px;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px;
+  }
+  .img-portfolio {
+    width: 290px;
+    height: 230px;
+    border-radius: 10px;
+  }
+  /* Footer */
+  .footer {
+    margin-top: -30px;
+  }
+  .footer-text {
+    font-size: 10px;
+  }
 }
 /* Tablet */
-@media (min-width: 768px){
+@media (min-width: 768px) {
   /* Home*/
-  .name{
+  .name {
     font-size: 60px;
+  }
+  .occupation {
+    font-size: 35px;
+  }
+  .text-presentation {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-size: 30px;
   }
 }
 /* Laptop */
-@media (min-width: 992px){
-  
+@media (min-width: 992px) {
 }
 /* Desktop */
-@media (min-width: 1200px){
-  
+@media (min-width: 1200px) {
 }
