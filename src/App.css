@@ -341,7 +341,7 @@ ul li:hover {
     margin-top: -20px;
   }
   /* Portfolio*/
-  .portfolio-title{
+  .portfolio-title {
     font-size: 30px;
   }
   .portfolio-container {
@@ -349,20 +349,20 @@ ul li:hover {
     flex-direction: column;
     margin-bottom: 30px;
   }
-  .e-commerce-container{
+  .e-commerce-container {
     height: 280px;
     margin-bottom: 20px;
   }
-  .pokedex-container{
+  .pokedex-container {
     height: 280px;
     margin-bottom: 20px;
   }
-  .weatherapp-container{
+  .weatherapp-container {
     height: 280px;
     margin-bottom: 20px;
     margin-top: -30px;
   }
-  .rick-and-morty-container{
+  .rick-and-morty-container {
     height: 280px;
     margin-bottom: 20px;
   }
@@ -394,19 +394,30 @@ ul li:hover {
     font-size: 30px;
   }
   /* Portfolio */
-  .portfolio-title{
+  .portfolio-title {
     font-size: 50px;
   }
-  .portfolio-container{
+  .portfolio-container {
     flex-direction: row;
-    margin: 60px;
-    gap: 40px;
+   justify-content: space-evenly;
+   margin-top: 50px;
   }
-  .e-commerce-container{
+  .e-commerce-container {
     margin-bottom: 50px;
   }
-  .weatherapp-container{
+  .weatherapp-container {
     margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  .pokedex-container {
+    margin-bottom: 50px;
+  }
+  .rick-and-morty-container {
+    margin-bottom: 50px;
+  }
+  /* Nav Bar */
+  .nav-bar{
+    justify-content: start;
   }
 }
 /* Laptop */
