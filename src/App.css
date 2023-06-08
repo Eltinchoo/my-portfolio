@@ -273,7 +273,6 @@ ul li:hover {
   padding-top: 10px;
 }
 .portfolio-container {
-  background-color: #183e49;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -343,10 +342,8 @@ ul li:hover {
   }
   /* Portfolio*/
   .portfolio-container {
-    border-radius: 10px;
     flex-direction: column;
-    width: 300px;
-    margin: 10px;
+    margin-bottom: 60px;
   }
   .img-portfolio {
     width: 290px;
