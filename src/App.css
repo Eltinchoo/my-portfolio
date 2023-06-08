@@ -341,9 +341,30 @@ ul li:hover {
     margin-top: -20px;
   }
   /* Portfolio*/
+  .portfolio-title{
+    font-size: 30px;
+  }
   .portfolio-container {
+    margin-top: -30px;
     flex-direction: column;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+  }
+  .e-commerce-container{
+    height: 280px;
+    margin-bottom: 20px;
+  }
+  .pokedex-container{
+    height: 280px;
+    margin-bottom: 20px;
+  }
+  .weatherapp-container{
+    height: 280px;
+    margin-bottom: 20px;
+    margin-top: -30px;
+  }
+  .rick-and-morty-container{
+    height: 280px;
+    margin-bottom: 20px;
   }
   .img-portfolio {
     width: 290px;
@@ -371,6 +392,21 @@ ul li:hover {
     margin-top: 50px;
     margin-bottom: 80px;
     font-size: 30px;
+  }
+  /* Portfolio */
+  .portfolio-title{
+    font-size: 50px;
+  }
+  .portfolio-container{
+    flex-direction: row;
+    margin: 60px;
+    gap: 40px;
+  }
+  .e-commerce-container{
+    margin-bottom: 50px;
+  }
+  .weatherapp-container{
+    margin-bottom: 50px;
   }
 }
 /* Laptop */
