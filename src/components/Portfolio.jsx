@@ -55,7 +55,7 @@ const Portfolio = () => {
             </a>
           </div>
 
-          <div className="crud-container">
+          <div className="rick-and-morty-container">
             <h3 className="app-title">Rick And Morty</h3>
             <a href="https://martin-paredes-rick-and-morty-wiki.netlify.app/" target="_blank">
               <img

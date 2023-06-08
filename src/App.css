@@ -280,19 +280,23 @@ color: rgb(240, 35, 35);
   justify-content: center;
   align-items: center;
   padding: 30px;
-  gap:15px
+  gap:15px;
 }
 .e-commerce-container{
   background-color:#35859b;
+  border-radius: 10px;
 }
 .pokedex-container{
   background-color: #35859b;
+  border-radius: 10px;
 }
 .weatherapp-container{
   background-color:#35859b;
+  border-radius: 10px;
 }
-.crud-container{
+.rick-and-morty-container{
   background-color: #35859b;
+  border-radius: 10px;
 }
 .portfolio-title{
   color: #06cfda;
@@ -308,3 +312,51 @@ color: rgb(240, 35, 35);
 opacity:0.6
 }
 
+/* Mobile */
+@media (min-width: 300px){
+/* Home*/
+  .name{
+    margin-top:-15px;
+    font-size: 30px;
+  }
+  .martin-container{
+    flex-direction: column;
+  }
+  .text-presentation{
+    margin-top: 20px;
+  }
+ .download-cv-btn{
+  margin-top: -20px;
+ }
+ /* Portfolio*/
+ .portfolio-container{
+  border-radius: 10px;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px;
+ }
+ .img-portfolio{
+  width: 290px;
+  height: 230px;
+  border-radius: 10px;
+ }
+ /* Footer */
+ .footer-text{
+  font-size: 10px;
+ }
+}
+/* Tablet */
+@media (min-width: 768px){
+  /* Home*/
+  .name{
+    font-size: 60px;
+  }
+}
+/* Laptop */
+@media (min-width: 992px){
+  
+}
+/* Desktop */
+@media (min-width: 1200px){
+  
+}
