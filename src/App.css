@@ -48,7 +48,6 @@ ul li:hover {
 }
 .presentation {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -61,6 +60,7 @@ ul li:hover {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-direction: column
 }
 .circle-img {
   background-color: white;
@@ -307,7 +307,7 @@ ul li:hover {
 
 
 /* Mobile */
-@media (min-width: 300px)  {
+@media (min-width: 300px) and (max-width: 768px) {
   /* Nav bar */
   .nav-bar {
     justify-content: start;
@@ -336,6 +336,7 @@ ul li:hover {
   }
   .download-cv-btn {
     margin-top: -20px;
+    margin-bottom: 30px;
   }
   /* Portfolio*/
   .portfolio-title {
@@ -388,8 +389,11 @@ ul li:hover {
   }
   .text-presentation {
     margin-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     font-size: 20px;
+  }
+  .download-cv-btn{
+    margin-bottom: 40px;
   }
   /* Portfolio */
   .portfolio-title {
@@ -424,6 +428,10 @@ ul li:hover {
   .nav-bar{
     justify-content: start;
   }
+  /* Home */
+  .download-cv-btn{
+    margin-bottom: 40px;
+  }
   /* Portfolio */
   .portfolio-title{
     margin: 80px;
@@ -451,4 +459,8 @@ ul li:hover {
 }
 /* Desktop */
 @media (min-width: 1200px) {
+  /* Home*/
+  .text-presentation{
+    margin-top: 30px;
+  }
 }
