@@ -1,10 +1,9 @@
 import React from "react";
 import e_commerce from "../assets/img/e-commerce.png";
 import rick_and_morty from "../assets/img/rick-and-morty.png";
-import pokedex from "../assets/img/pokedex.png";
+import pokedex from "../assets/img/pokemon-pokedex.png";
 import weatherapp from "../assets/img/weather-app.png";
 import basicCalculator from "../assets/img/Basic-calculator.png"
-
 const Portfolio = () => {
   return (
     <div>
@@ -50,7 +49,7 @@ const Portfolio = () => {
         </div>
 
         <div className="rick-and-morty-container">
-          <h3 className="app-title">Rick And Morty</h3>
+          <h3 className="app-title">Rick And Morty - Wiki</h3>
           <a
             href="https://martin-paredes-rick-and-morty-wiki.netlify.app/"
             target="_blank"
