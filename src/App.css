@@ -68,7 +68,7 @@ ul li:hover {
   width: 340px;
   height: 350px;
   overflow: hidden;
-  border: 2px solid rgba(115, 106, 71, 0.466);
+  border: 3px solid #06cfda;
 }
 .martin-img {
   height: 350px;
@@ -87,8 +87,8 @@ ul li:hover {
   font-size: 23px;
   margin-top: -10px;
   margin-bottom: 40px;
-  text-align: start;
-  font-family: 'Rajdhani', sans-serif;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
 }
 .download-cv-btn {
   background-color: #183e49;
