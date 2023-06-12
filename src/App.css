@@ -190,7 +190,7 @@ ul li:hover {
 }
 .fa-users {
   font-size: 25px;
-  color: rgb(22, 184, 184);
+  color: rgb(234, 144, 43);
 }
 .fa-circle-check {
   font-size: 25px;
@@ -377,25 +377,25 @@ ul li:hover {
     background-color: #183e49;
     border-radius: 10px;
     width: 340px;
-    height: 400px;
-    
+    height: 450px;
     margin-top: 20px;
     margin-bottom: 60px;
   }
   .skills-title{
-    margin-top: 15px;
-    font-size: 20px;
+    margin-top: 30px;
+    font-size: 23px;
+    color:#06cfda
   }
   .skills{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
   }
   .tech-icon{
     flex-wrap: wrap;
-    gap:15px;
-    justify-content: center;
+    gap:20px;
+    justify-content:center;
   }
   .soft-skills{
     display: flex;

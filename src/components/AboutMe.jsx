@@ -42,7 +42,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="skills-container">
-          <h2 className="skills-title">Skills</h2>
+          <h2 className="skills-title strong-skill-title">Skills</h2>
           <div className="skills">
             <div className="tech-icon">
               <b className="brand">
@@ -54,12 +54,9 @@ const AboutMe = () => {
               </b>
 
               <b className="brand">
-                Bootstrap <i className="fa-brands fa-bootstrap"></i>{" "}
-              </b>
-
-              <b className="brand">
                 JavaScript <i className="fa-brands fa-square-js"></i>
               </b>
+
 
               <b className="brand">
                 React <i className="fa-brands fa-react"></i>
@@ -70,10 +67,13 @@ const AboutMe = () => {
               <b className="brand">
                 Git <i className="fa-brands fa-git-alt"></i>
               </b>
-
               <b className="brand">
                 Github <i className="fa-brands fa-github"></i>
               </b>
+              <b className="brand">
+                Bootstrap <i className="fa-brands fa-bootstrap"></i>{" "}
+              </b>
+
             </div>
           </div>
 
