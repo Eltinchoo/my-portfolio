@@ -454,25 +454,25 @@ ul li:hover {
   }
   /* Portfolio */
   .portfolio-title {
-    font-size: 40px;
+    font-size: 30px;
   }
   .portfolio-container {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: -20px;
   }
   .e-commerce-container {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .weatherapp-container {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .pokedex-container {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .rick-and-morty-container {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   /* Nav Bar */
   .nav-bar {
@@ -515,7 +515,6 @@ ul li:hover {
     justify-content: start;
   }
   /* Home */
-
   .name {
     margin-top: -50px;
   }
@@ -565,11 +564,55 @@ ul li:hover {
     height: 200px;
     border-radius: 10px;
   }
+  /* About me*/
+  .education-experience{
+    flex-direction: row;
+    width: 850px;
+    gap:30px;
+  }
+  .education{
+    margin-top: 30px;
+    width: 430px;
+    height: 260px;
+    padding: 10px ;
+  }
+  .education-title{
+    margin-top: -15px;
+  }
+  .experience{
+    width: 380px;
+    padding:40px;
+    height: 200px;
+  }
+  .experience-title{
+    margin-top: 20px;
+  }
+  .skills-container{
+    flex-direction: row;
+    width: 850px;
+    height: 250px;
+  }
+  .skills{
+    height: 250px;
+    gap:20px
+  }
+  .strong-skill-title{
+    margin-top: -60px;
+  }
+  .soft-skill-title{
+    margin-top: 38px;
+    margin-bottom: 30px;
+  }
 }
 /* Desktop */
 @media (min-width: 1200px) {
   /* Home*/
   .text-presentation {
     margin-top: 30px;
+  }
+  /* About Me*/
+  .about-me-text{
+    font-size: 20px;
+    padding: 40px;
   }
 }

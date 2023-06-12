@@ -80,7 +80,7 @@ const AboutMe = () => {
 
           
           <div className="soft-skills">
-          <h2 className="skills-title">Soft skills</h2>
+          <h2 className="skills-title soft-skill-title">Soft skills</h2>
           <div className="skills-icon">
           <b className="soft-skills-title">
               Creative <i className="fa-solid fa-lightbulb"></i>
