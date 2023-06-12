@@ -15,7 +15,7 @@ const Home = () => {
         <p className="text-presentation">
           I love developing web applications and I love solving problems with a
           computer and a cup of coffee. I'm continually learning new technology
-          and applying my new skills. It will be a pleasure to work together. "
+          and applying my new skills. It will be a pleasure to work together.
         </p>
         <a className="download-cv-btn" href="./cv.pdf" download>
           Download CV
