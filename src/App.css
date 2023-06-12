@@ -60,7 +60,7 @@ ul li:hover {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex-direction: column
+  flex-direction: column;
 }
 .circle-img {
   background-color: white;
@@ -100,23 +100,16 @@ ul li:hover {
   background-color: #06cfda;
 }
 /*  about me*/
-.aboute-me-container {
+.aboute-me-general-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 .about-me-title {
   color: #06cfda;
-  font-size: 50px;
   font-weight: bolder;
 }
-.about-me-text {
-  margin: 50px;
-  padding-left: 250px;
-  padding-right: 250px;
-  font-size: 20px;
-}
+
 .tech-container {
   display: flex;
   justify-content: center;
@@ -125,15 +118,11 @@ ul li:hover {
 }
 .education-experience {
   display: flex;
-  text-align: center;
   justify-content: center;
-  align-items: flex-start;
-  box-sizing: border-box;
-  border-radius: 0px;
+  align-items: center;
 }
 .academlo {
   color: gray;
-  margin-top: 10px;
 }
 .education-title {
   color: #06cfda;
@@ -141,38 +130,13 @@ ul li:hover {
 }
 .experience-title {
   color: #06cfda;
-  font-size: 30px;
 }
 .title-academlo {
   font-family: "Playfair Display", serif;
   color: whitesmoke;
   font-size: 20px;
 }
-.education {
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  background-color: #183e49;
-  flex-direction: column;
-  width: 50%;
-  padding: 30px;
-  margin-left: 30px;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-}
-.experience {
-  flex-direction: column;
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  width: 50%;
-  padding: 18px;
-  background-color: #183e49;
-  margin-right: 30px;
-  border-left: 1px solid white;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
-}
+
 .skills-container {
   margin-top: 40px;
   background-color: #183e49;
@@ -305,9 +269,8 @@ ul li:hover {
   height: 400px;
 }
 
-
 /* Mobile */
-@media (min-width: 300px) and (max-width: 768px) {
+@media (min-width: 300px) {
   /* Nav bar */
   .nav-bar {
     justify-content: start;
@@ -350,16 +313,15 @@ ul li:hover {
   }
   .e-commerce-container {
     height: 280px;
-   margin-bottom: 40px;
+    margin-bottom: 40px;
   }
   .pokedex-container {
     height: 280px;
-   margin-bottom: 40px;
+    margin-bottom: 40px;
   }
   .weatherapp-container {
     height: 280px;
     margin-bottom: 40px;
-  
   }
   .rick-and-morty-container {
     height: 280px;
@@ -370,6 +332,58 @@ ul li:hover {
     height: 230px;
     border-radius: 10px;
   }
+  /* About me */
+  .about-me-title {
+    font-size: 30px;
+  }
+  .about-me-text {
+    padding: 20px;
+    font-size: 15px;
+    margin-top: -20px;
+  }
+  .education-experience{
+    flex-direction: column;
+  }
+  .education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #183e49;
+    width: 320px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  .education-title{
+    font-size: 20px;
+  }
+  .academlo{
+    margin-top: -5px
+  }
+  .title-academlo{
+    margin-top: 12px ;
+    font-size: 15px;
+  }
+  .text-academlo{
+    font-size: 13px;
+  }
+  .experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #183e49;
+    width: 320px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .experience-title{
+  font-size: 20px;
+  }
+  .text-experience{
+    font-size: 13px;
+  }
   /* Footer */
   .footer {
     margin-top: -30px;
@@ -379,7 +393,7 @@ ul li:hover {
   }
 }
 /* Tablet */
-@media (min-width: 768px) and (max-width:991px){
+@media (min-width: 768px) and (max-width: 991px) {
   /* Home*/
   .name {
     font-size: 40px;
@@ -392,12 +406,12 @@ ul li:hover {
     margin-bottom: 40px;
     font-size: 20px;
   }
-  .download-cv-btn{
+  .download-cv-btn {
     margin-bottom: 40px;
   }
   /* Portfolio */
   .portfolio-title {
-    font-size: 50px;
+    font-size: 40px;
   }
   .portfolio-container {
     flex-direction: row;
@@ -418,31 +432,43 @@ ul li:hover {
     margin-bottom: 50px;
   }
   /* Nav Bar */
-  .nav-bar{
+  .nav-bar {
     justify-content: start;
   }
 }
 /* Laptop */
 @media (min-width: 991px) {
   /* Nav Bar */
-  .nav-bar{
+  .nav-bar {
     justify-content: start;
   }
   /* Home */
-  .download-cv-btn{
+
+  .name {
+    margin-top: -50px;
+  }
+  .occupation {
+    font-size: 20px;
+  }
+  .circle-img {
+    margin-top: -30px;
+  }
+  .download-cv-btn {
     margin-bottom: 40px;
   }
   /* Portfolio */
-  .portfolio-title{
-    margin: 80px;
-    margin-bottom:140px;
-    font-size: 80px;
+  .portfolio-title {
+    margin: 40px;
+    margin-bottom: 90px;
+    font-size: 40px;
   }
-  .portfolio-container{
-    
-    margin-top: -90px;
-    gap:30px;
+  .portfolio-container {
+    margin-top: -80px;
+    margin-bottom: 70px;
+    gap: 50px;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .e-commerce-container {
     height: 250px;
@@ -451,7 +477,7 @@ ul li:hover {
     height: 250px;
   }
   .weatherapp-container {
-    height: 250px;    
+    height: 250px;
   }
   .rick-and-morty-container {
     height: 250px;
@@ -460,7 +486,7 @@ ul li:hover {
 /* Desktop */
 @media (min-width: 1200px) {
   /* Home*/
-  .text-presentation{
+  .text-presentation {
     margin-top: 30px;
   }
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div>
+    <div className="about-me-general-container">
       <h2 className="about-me-title">About me</h2>
       <p className="about-me-text">
         I'm Paraguayan and I love programming and technology. I'm also a
@@ -21,7 +21,7 @@ const AboutMe = () => {
             <h4 className="title-academlo">
               "Front-end Development JavaScript Vanilla"
             </h4>
-            <p>
+            <p className="text-academlo">
               Front-end developer skills, from HTML, CSS, JS, react, Node.js in
               progres, teamwork and Git version control and Github
             </p>
@@ -34,7 +34,7 @@ const AboutMe = () => {
             <h4 className="title-academlo">
               "Front-end Development with React"
             </h4>
-            <p>
+            <p className="text-experience">
               I have developed projects with JavaScript Vanilla, HTML and CSS,
               also using react together with libraries like react-router and
               redux. Also developing teamwork skills with completed projects.
