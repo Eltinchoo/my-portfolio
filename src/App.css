@@ -298,23 +298,27 @@ ul li:hover {
   }
   .e-commerce-container {
     height: 280px;
+    width: 300px;
     margin-bottom: 40px;
   }
   .pokedex-container {
     height: 280px;
+    width: 300px;
     margin-bottom: 40px;
   }
   .weatherapp-container {
     height: 280px;
+    width: 300px;
     margin-bottom: 40px;
   }
   .rick-and-morty-container {
     height: 280px;
+    width: 300px;
     margin-bottom: 20px;
   }
   .img-portfolio {
     width: 290px;
-    height: 230px;
+    height: 200px;
     border-radius: 10px;
   }
   /* About me */
