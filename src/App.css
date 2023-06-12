@@ -105,6 +105,12 @@ ul li:hover {
   justify-content: center;
   align-items: center;
 }
+.aboute-me-container{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .about-me-title {
   color: #06cfda;
   font-weight: bolder;
@@ -372,7 +378,7 @@ ul li:hover {
     border-radius: 10px;
     width: 340px;
     height: 400px;
-    margin-left: 20px;
+    
     margin-top: 20px;
     margin-bottom: 60px;
   }
