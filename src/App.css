@@ -299,22 +299,22 @@ ul li:hover {
   .e-commerce-container {
     height: 280px;
     width: 300px;
-    margin-bottom: 40px;
+    
   }
   .pokedex-container {
     height: 280px;
     width: 300px;
-    margin-bottom: 40px;
+   
   }
   .weatherapp-container {
     height: 280px;
     width: 300px;
-    margin-bottom: 40px;
+    
   }
   .rick-and-morty-container {
     height: 280px;
     width: 300px;
-    margin-bottom: 20px;
+    
   }
   .img-portfolio {
     width: 290px;
@@ -412,7 +412,6 @@ ul li:hover {
   .soft-skills-title{
     font-size: 15px;
   }
- 
   /* Footer */
   .footer {
     margin-top: -30px;
@@ -488,28 +487,35 @@ ul li:hover {
   /* Portfolio */
   .portfolio-title {
     margin: 40px;
-    margin-bottom: 90px;
-    font-size: 40px;
+    font-size: 30px;
   }
   .portfolio-container {
-    margin-top: -80px;
-    margin-bottom: 70px;
-    gap: 50px;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
+    flex-direction: row;
+    gap: 25px;
   }
   .e-commerce-container {
-    height: 250px;
+    height: 280px;
+    width: 300px;
   }
   .pokedex-container {
-    height: 250px;
+    height: 280px;
+    width: 300px;
   }
   .weatherapp-container {
-    height: 250px;
+    height: 280px;
+    width: 300px
   }
   .rick-and-morty-container {
-    height: 250px;
+    height: 280px;
+    width: 300px;
+  }
+  .img-portfolio {
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
   }
 }
 /* Desktop */
