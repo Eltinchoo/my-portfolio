@@ -42,8 +42,9 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="skills-container">
-          <h2 className="skills-title strong-skill-title">Skills</h2>
+          
           <div className="skills">
+          <h2 className="skills-title strong-skill-title">Skills</h2>
             <div className="tech-icon">
               <b className="brand">
                 HTML <i className="fa-brands fa-html5"></i>
@@ -77,8 +78,10 @@ const AboutMe = () => {
             </div>
           </div>
 
-          <h2 className="skills-title">Soft skills</h2>
+          
           <div className="soft-skills">
+          <h2 className="skills-title">Soft skills</h2>
+          <div className="skills-icon">
           <b className="soft-skills-title">
               Creative <i className="fa-solid fa-lightbulb"></i>
             </b>
@@ -101,6 +104,7 @@ const AboutMe = () => {
             <b className="soft-skills-title">
               Problem resolution <i className="fa-solid fa-circle-check"></i>
             </b>
+            </div>
           </div>
         </div>
       </div>

@@ -105,8 +105,8 @@ ul li:hover {
   justify-content: center;
   align-items: center;
 }
-.aboute-me-container{
-  display: flex ;
+.aboute-me-container {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -229,19 +229,23 @@ ul li:hover {
   gap: 15px;
 }
 .e-commerce-container {
-  background-color: #35859b;
+  background-color: #183e49;
   border-radius: 10px;
 }
 .pokedex-container {
-  background-color: #35859b;
+  background-color: #183e49;
   border-radius: 10px;
 }
 .weatherapp-container {
-  background-color: #35859b;
+  background-color: #183e49;
   border-radius: 10px;
 }
 .rick-and-morty-container {
-  background-color: #35859b;
+  background-color: #183e49;
+  border-radius: 10px;
+}
+.calculator-container {
+  background-color: #183e49;
   border-radius: 10px;
 }
 .portfolio-title {
@@ -299,25 +303,25 @@ ul li:hover {
   .e-commerce-container {
     height: 280px;
     width: 300px;
-    
   }
   .pokedex-container {
     height: 280px;
     width: 300px;
-   
   }
   .weatherapp-container {
     height: 280px;
     width: 300px;
-    
   }
   .rick-and-morty-container {
     height: 280px;
     width: 300px;
-    
+  }
+  .calculator-container {
+    height: 280px;
+    width: 300px;
   }
   .img-portfolio {
-    width: 290px;
+    width: 240px;
     height: 200px;
     border-radius: 10px;
   }
@@ -381,36 +385,47 @@ ul li:hover {
     background-color: #183e49;
     border-radius: 10px;
     width: 340px;
-    height: 450px;
+    height: 460px;
     margin-top: 20px;
     margin-bottom: 60px;
   }
-  .skills-title{
-    margin-top: 30px;
+  .skills-title {
     font-size: 23px;
-    color:#06cfda
+    color: #06cfda;
   }
-  .skills{
+  .skills {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
+    flex-direction: column;
   }
-  .tech-icon{
+  .tech-icon {
     flex-wrap: wrap;
-    gap:20px;
-    justify-content:center;
+    gap: 25px;
+    justify-content: start;
+    padding-left: 35px;
   }
-  .soft-skills{
+  .soft-skills {
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .skills-icon{
+    display: flex;
+    justify-content: start;
+    align-items: center;
     flex-wrap: wrap;
     gap:15px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
+    padding-left: 35px;
   }
-  .soft-skills-title{
+  .soft-skills-title {
     font-size: 15px;
+    margin-bottom: 15px;
   }
   /* Footer */
   .footer {
@@ -463,6 +478,35 @@ ul li:hover {
   .nav-bar {
     justify-content: start;
   }
+  /* About me*/
+  .education-experience {
+    flex-direction: row;
+    height: 320px;
+    width: 750px;
+    gap: 20px;
+  }
+  .education {
+    height: 280px;
+    margin-top: 30px;
+  }
+  .experience {
+    height: 280px;
+  }
+  .skills-container{
+    flex-direction: row;
+    width: 700px;
+    height: 250px; 
+  }
+  .skills{
+   flex-direction: column;
+  }
+  .strong-skill-title{
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+  .skills-icon{
+    padding-right: 20px;
+  }
 }
 /* Laptop */
 @media (min-width: 991px) {
@@ -498,22 +542,26 @@ ul li:hover {
   }
   .e-commerce-container {
     height: 280px;
-    width: 300px;
+    width: 250px;
   }
   .pokedex-container {
     height: 280px;
-    width: 300px;
+    width: 250px;
   }
   .weatherapp-container {
     height: 280px;
-    width: 300px
+    width: 250px;
   }
   .rick-and-morty-container {
     height: 280px;
-    width: 300px;
+    width: 250px;
+  }
+  .calculator-container {
+    height: 280px;
+    width: 250px;
   }
   .img-portfolio {
-    width: 290px;
+    width: 230px;
     height: 200px;
     border-radius: 10px;
   }

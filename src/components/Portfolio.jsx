@@ -3,6 +3,7 @@ import e_commerce from "../assets/img/e-commerce.png";
 import rick_and_morty from "../assets/img/rick-and-morty.png";
 import pokedex from "../assets/img/pokedex.png";
 import weatherapp from "../assets/img/weather-app.png";
+import basicCalculator from "../assets/img/Basic-calculator.png"
 
 const Portfolio = () => {
   return (
@@ -58,6 +59,20 @@ const Portfolio = () => {
               className="img-portfolio"
               src={rick_and_morty}
               alt="rick and morty imagen"
+            />
+          </a>
+        </div>
+        
+        <div className="calculator-container">
+          <h3 className="app-title">Basic Calculator</h3>
+          <a
+            href="https://martin-paredes-basic-calculator.netlify.app/"
+            target="_blank"
+          >
+            <img
+              className="img-portfolio"
+              src={basicCalculator}
+              alt="basic calculator imagen"
             />
           </a>
         </div>
