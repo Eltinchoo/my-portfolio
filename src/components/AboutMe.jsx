@@ -8,7 +8,7 @@ const AboutMe = () => {
         I'm Paraguayan and I love programming and technology. I'm also a
         professional violinist. I'm someone who gets what is proposed since I
         think achievements are results of decisions are made and goals that each
-        one proposes. One of my professional goals is to apply my knowledge and
+        one proposes. <br/> One of my professional goals is to apply my knowledge and
         experience to solve problems and provide effective solutions
       </p>
       <div className="aboute-me-container">
