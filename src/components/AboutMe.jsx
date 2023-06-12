@@ -79,29 +79,28 @@ const AboutMe = () => {
 
           <h2 className="skills-title">Soft skills</h2>
           <div className="soft-skills">
-            <h3 className="soft-skills-title">
-              Fast learning <i className="fa-solid fa-bolt"></i>
-            </h3>
-
-            <h3 className="soft-skills-title">
-              Teamwork <i className="fa-solid fa-users"></i>
-            </h3>
-
-            <h3 className="soft-skills-title">
-              Problem resolution <i className="fa-solid fa-circle-check"></i>
-            </h3>
-
-            <h3 className="soft-skills-title">
-              Patience <i className="fa-solid fa-heart-circle-plus"></i>
-            </h3>
-
-            <h3 className="soft-skills-title">
-              Communication <i className="fa-solid fa-comments"></i>
-            </h3>
-
-            <h3 className="soft-skills-title">
+          <b className="soft-skills-title">
               Creative <i className="fa-solid fa-lightbulb"></i>
-            </h3>
+            </b>
+
+            <b className="soft-skills-title">
+              Teamwork <i className="fa-solid fa-users"></i>
+            </b>
+
+            <b className="soft-skills-title">
+              Patience <i className="fa-solid fa-heart-circle-plus"></i>
+            </b>
+
+            <b className="soft-skills-title">
+              Communication <i className="fa-solid fa-comments"></i>
+            </b>
+
+            <b className="soft-skills-title">
+              Fast learning <i className="fa-solid fa-bolt"></i>
+            </b>
+            <b className="soft-skills-title">
+              Problem resolution <i className="fa-solid fa-circle-check"></i>
+            </b>
           </div>
         </div>
       </div>
