@@ -45,35 +45,35 @@ const AboutMe = () => {
           <h2 className="skills-title">Skills</h2>
           <div className="skills">
             <div className="tech-icon">
-              <h3 className="brand">
+              <b className="brand">
                 HTML <i className="fa-brands fa-html5"></i>
-              </h3>
+              </b>
 
-              <h3 className="brand">
+              <b className="brand">
                 CSS <i className="fa-brands fa-css3-alt"></i>
-              </h3>
+              </b>
 
-              <h3 className="brand">
+              <b className="brand">
                 Bootstrap <i className="fa-brands fa-bootstrap"></i>{" "}
-              </h3>
+              </b>
 
-              <h3 className="brand">
+              <b className="brand">
                 JavaScript <i className="fa-brands fa-square-js"></i>
-              </h3>
+              </b>
 
-              <h3 className="brand">
+              <b className="brand">
                 React <i className="fa-brands fa-react"></i>
-              </h3>
-              <h3 className="brand">
+              </b>
+              <b className="brand">
                 Node.js <i className="fa-brands fa-node-js"></i>
-              </h3>
-              <h3 className="brand">
+              </b>
+              <b className="brand">
                 Git <i className="fa-brands fa-git-alt"></i>
-              </h3>
+              </b>
 
-              <h3 className="brand">
+              <b className="brand">
                 Github <i className="fa-brands fa-github"></i>
-              </h3>
+              </b>
             </div>
           </div>
 

@@ -109,7 +109,6 @@ ul li:hover {
   color: #06cfda;
   font-weight: bolder;
 }
-
 .tech-container {
   display: flex;
   justify-content: center;
@@ -136,34 +135,13 @@ ul li:hover {
   color: whitesmoke;
   font-size: 20px;
 }
-
-.skills-container {
-  margin-top: 40px;
-  background-color: #183e49;
-  padding: 25px;
-  border-radius: 10px;
-}
-.skills-title {
-  margin-top: 40px;
-  margin-bottom: 10px;
-  font-size: 30px;
-  color: gray;
-}
-.soft-skills {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  gap: 40px;
-}
 .tech-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
 }
 .brand {
-  font-size: 25px;
+  font-size: 10px;
 }
 .fa-html5 {
   color: rgb(223, 73, 19);
@@ -341,7 +319,7 @@ ul li:hover {
     font-size: 15px;
     margin-top: -20px;
   }
-  .education-experience{
+  .education-experience {
     flex-direction: column;
   }
   .education {
@@ -355,17 +333,17 @@ ul li:hover {
     padding: 10px;
     margin-bottom: 30px;
   }
-  .education-title{
+  .education-title {
     font-size: 20px;
   }
-  .academlo{
-    margin-top: -5px
+  .academlo {
+    margin-top: -5px;
   }
-  .title-academlo{
-    margin-top: 12px ;
+  .title-academlo {
+    margin-top: 12px;
     font-size: 15px;
   }
-  .text-academlo{
+  .text-academlo {
     font-size: 13px;
   }
   .experience {
@@ -378,12 +356,31 @@ ul li:hover {
     border-radius: 10px;
     padding: 10px;
   }
-  .experience-title{
-  font-size: 20px;
+  .experience-title {
+    font-size: 20px;
   }
-  .text-experience{
+  .text-experience {
     font-size: 13px;
   }
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #183e49;
+    border-radius: 10px;
+    width: 320px;
+  }
+  .skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tech-icon{
+    flex-wrap: wrap;
+    gap:10px
+  }
+ 
   /* Footer */
   .footer {
     margin-top: -30px;
