@@ -68,6 +68,7 @@ ul li:hover {
   width: 340px;
   height: 350px;
   overflow: hidden;
+  border: 2px solid rgba(115, 106, 71, 0.466);
 }
 .martin-img {
   height: 350px;
@@ -83,9 +84,11 @@ ul li:hover {
 }
 .text-presentation {
   color: white;
-  font-size: 20px;
+  font-size: 23px;
   margin-top: -10px;
   margin-bottom: 40px;
+  text-align: start;
+  font-family: 'Rajdhani', sans-serif;
 }
 .download-cv-btn {
   background-color: #183e49;
@@ -327,12 +330,14 @@ ul li:hover {
   }
   /* About me */
   .about-me-title {
-    font-size: 30px;
+    font-size: 40px;
   }
   .about-me-text {
     padding: 20px;
     font-size: 15px;
     margin-top: -20px;
+    color:  rgb(255, 255, 255);
+    text-align: start;
   }
   .education-experience {
     flex-direction: column;
@@ -530,7 +535,7 @@ ul li:hover {
   /* Portfolio */
   .portfolio-title {
     margin: 40px;
-    font-size: 30px;
+    font-size: 40px;
   }
   .portfolio-container {
     justify-content: center;
