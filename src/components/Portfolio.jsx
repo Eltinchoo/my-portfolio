@@ -37,7 +37,7 @@ const Portfolio = () => {
         <div className="weatherapp-container">
           <h3 className="app-title">Weather-app</h3>
           <a
-            href="https://guileless-sfogliatella-73f652.netlify.app/"
+            href="https://martinparedes-weather-app.netlify.app/"
             target="_blank"
           >
             <img
